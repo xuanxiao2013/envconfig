@@ -8,7 +8,6 @@ source ~/.vim/vimrc/hotKey
 
 source ~/.vim/vimrc/theme
 
-source ~/.vim/vimrc/status
 
 source ~/.vim/vimrc/reg
 

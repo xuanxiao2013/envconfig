@@ -25,6 +25,7 @@ alias scylla='/Users/xuanxiao/work/www/github/scylla-team/scylla/bin/scylla'
 alias github='cd /Users/xuanxiao/work/www/github'
 alias gitlab='cd /Users/xuanxiao/work/www/gitlab'
 alias eclipse='cd /Users/xuanxiao/work/eclipse-work'
+alias test='cd /Users/xuanxiao/work/test'
 
 alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/chrome'

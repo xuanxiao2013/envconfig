@@ -2,8 +2,8 @@
 "选择编辑器主题
 
 set background=dark
-colorscheme darkblack
-"colorscheme solarized
+"colorscheme darkblack
+colorscheme solarized
 "colorscheme molokai
 
 
