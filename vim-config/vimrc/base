@@ -61,7 +61,8 @@ if has("unix") && !has("mac")
 	set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ Medium\ 10
 endif
 if has("mac")
-	set guifont=Courier\ New:h14
+	"set guifont=Courier\ New:h14
+	set guifont=YaHei\ Consolas\ Hybrid\ 11.5
 endif
 
 
@@ -74,3 +75,14 @@ set backupdir=~/.vim/.vimbk/
 "vmap y :w !pbcopy<CR><CR>
 "nmap yy :.w !pbcopy<CR><CR>
 "nmap p :r !pbpaste<CR><CR>
+
+" 禁止光标闪烁
+set gcr=a:block-blinkon0
+" 禁止显示滚动条
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+" 禁止显示菜单和工具条
+set guioptions-=m
+set guioptions-=T

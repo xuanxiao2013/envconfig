@@ -3,6 +3,8 @@ alias vim2='vim -u ~/.vim2rc'
 alias gvim='gvim -U ~/.gvimrc '
 alias ant='/Users/xuanxiao/Applications/apache-ant-1.9.4/bin/ant'
 
+alias svn='/usr/local/Cellar/subversion/1.8.10_1/bin/svn'
+
 alias l107="ssh xiantao.kong@10.125.13.107"
 alias pg='python /Applications/goagent/local/proxy.py'
 alias jshint='/Users/xuanxiao/node_modules/jshint/bin/jshint'
@@ -27,3 +29,6 @@ alias eclipse='cd /Users/xuanxiao/work/eclipse-work'
 alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/chrome'
 
+alias vimconfig="/Users/xuanxiao/work/www/github/envconfig/vim-config"
+alias osconfig="/Users/xuanxiao/work/www/github/envconfig/mac-config"
+alias config="/Users/xuanxiao/work/www/github/envconfig"
