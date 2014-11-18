@@ -1,0 +1,38 @@
+
+"状态栏样式hack，针对evening,包括gui模式下的状态栏样式
+hi StatusLine	cterm=bold ctermbg=blue ctermfg=white guifg=darkblue guibg=white
+hi StatusLineNC	cterm=bold ctermbg=blue ctermfg=black guifg=darkblue guibg=white
+hi TabLine cterm=bold ctermbg=white ctermfg=black guibg=blue guifg=white
+hi TabLineSel cterm=bold ctermbg=blue ctermfg=white guibg=blue guifg=white
+
+"编辑器样式hack
+hi Special      cterm=reverse ctermbg=white ctermfg=Black
+hi Identifier   cterm=reverse ctermbg=Green ctermfg=Black
+hi Statement    cterm=reverse ctermbg=white ctermfg=Black
+hi PreProc      cterm=reverse ctermbg=white ctermfg=Black
+hi Type         cterm=reverse ctermbg=Green ctermfg=Black
+hi Ignore       cterm=reverse ctermbg=white ctermfg=Black
+hi Error        ctermbg=Black ctermfg=white
+hi Todo         cterm=reverse ctermbg=white ctermfg=Black
+hi Search       cterm=reverse ctermbg=Yellow ctermfg=Black
+hi ErrorMsg     cterm=reverse ctermbg=Black ctermfg=white
+hi StatusLine   ctermfg=darkblue  ctermbg=gray
+hi StatusLineNC ctermfg=brown   ctermbg=darkblue
+hi ExtraWhitespace cterm=reverse ctermbg=Black ctermfg=Black guibg=Black guifg=Black
+hi PmenuSbar cterm=reverse ctermbg=Black ctermfg=Black guibg=Black guifg=Black
+hi LineNr cterm=reverse ctermbg=Green ctermfg=Black
+
+
+hi Comment      cterm=reverse ctermfg=Black ctermbg=Red guifg=Black guibg=Red
+hi Constant     cterm=reverse ctermbg=Red ctermfg=Black
+hi ExtraWhitespace cterm=reverse ctermbg=Black ctermfg=Black guibg=Black guifg=Black
+
+"开启高亮光标列
+"set cursorline
+"hi CursorLine   ctermbg=LightBlue
+"set cursorcolumn
+"hi CursorColumn ctermbg=LightBlue 
+
+
+
+

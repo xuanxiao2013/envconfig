@@ -1,0 +1,76 @@
+set nocompatible 
+set number
+set ff=unix
+set ts=4
+set sw=4
+filetype on
+filetype plugin on
+filetype indent on
+"默认长度的空格
+set backspace=indent,eol,start
+"折叠配置
+set fdm=manual
+"高亮搜索结果
+set incsearch
+set hlsearch
+"自动缩进动作，粘贴自动缩进
+set smartindent
+"自动缩进长度
+set cino=:0g0               
+"长句在单词间折行
+set wrap
+"搜索忽略大小写
+set ignorecase
+"编辑源备份
+set backupcopy=yes
+"编辑模式自动缩进
+set autoindent 
+"记录历史
+set history=5000
+"标尺
+set ruler
+"显示不完整的命令
+set showcmd
+"文件编码
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,GB18030,gbk
+"gui字体，随意模式
+set guifontset=*-r-*
+"tab设置
+set shiftwidth=4
+set tabstop=4
+set showtabline=2
+set tabpagemax=40
+"语法高亮
+syntax enable
+syntax on
+
+"折叠保存
+au BufWinLeave * silent mkview
+au BufWinEnter * silent loadview
+
+" 折叠样式
+highlight Folded ctermbg=darkgray ctermfg=lightmagenta
+
+
+" 字体设置
+if has("unix") && !has("mac")
+	set guifont=Inconsolata\ Medium\ 11
+	" gui下字体默认样式
+	set guifont=Courier\ 10\ Pitch
+	set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ Medium\ 10
+endif
+if has("mac")
+	set guifont=Courier\ New:h14
+endif
+
+
+" 备份
+set backup
+set backupext=.bak
+set backupdir=~/.vim/.vimbk/
+
+" 复制到剪贴板
+"vmap y :w !pbcopy<CR><CR>
+"nmap yy :.w !pbcopy<CR><CR>
+"nmap p :r !pbpaste<CR><CR>

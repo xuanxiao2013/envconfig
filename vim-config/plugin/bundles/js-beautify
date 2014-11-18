@@ -1,0 +1,9 @@
+
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'einars/js-beautify'
+Bundle 'jshint.vim'
+
+autocmd FileType javascript noremap <buffer>  <leader>b :call JsBeautify()<cr>
+autocmd FileType html noremap <buffer> <leader>b :call HtmlBeautify()<cr>
+autocmd FileType css noremap <buffer> <leader>b :call CSSBeautify()<cr>
+

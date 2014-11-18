@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Git shortcuts
+alias ga='git add '
+alias gd='git diff'
+alias gr='git rm'
+alias gs='git status'
+alias gss='git status -s'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit"
+alias gc='git commit -m'
+alias gull='git pull origin'
+alias gush='git push origin'
+alias gco='git checkout'
+alias ge='git clone'
+
+alias gitcm='git commit --all -m '
+alias gitpushmaster='git push -u origin master'
+alias gitpusho='git push origin '
+
+
+#git config --global user.name "玄啸"
+#git config --global user.email "xiantao.kong@alibaba-inc.com"

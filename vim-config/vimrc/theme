@@ -1,0 +1,10 @@
+
+"选择编辑器主题
+colorscheme darkblack
+
+
+
+
+"hi ErrorMsg     cterm=reverse ctermbg=Black ctermfg=white guibg=Black guifg=white
+hi ExtraWhitespace cterm=reverse ctermbg=Black ctermfg=white guibg=#002b36 guifg=white
+

@@ -1,0 +1,157 @@
+#!/bin/bash
+alias vi="vim"
+alias edit="vim"
+alias gm='gvim -U ~/.gvimrc'
+alias gvim='gvim -U ~/.gvimrc'
+alias grep="grep -nE --color"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias mkdir="mkdir -pv"
+alias cp='cp -v'
+alias cpr='cp -r'
+alias mv='mv -v'
+alias chmod='chmod -v --preserve-root'
+alias chown='chown -v --preserve-root'
+alias chgrp='chgrp -v --preserve-root'
+alias df="df -h"
+alias du="du -h"
+alias last="last -a"
+alias free='free -m'
+
+
+alias diff='colordiff'
+alias py='python'
+
+#chdir
+alias ..="cd .."
+alias cdd="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+alias -- -='cd -'
+
+alias cds='echo "`pwd`" > ~/.cdsave'  #cd save : save where i am
+alias cdb='cd "`cat ~/.cdsave`"'  # cd back
+
+
+#short cut
+alias s='sudo'   #sudo时
+alias apt-get='sudo apt-get'
+
+alias gu='iconv -f gbk -t utf-8'  #两种类型编码转换
+alias ug='iconv -f utf-8 -t gbk'
+alias ssh='ssh -2'
+alias ms='mysql -uroot -p123456'    #mysql
+
+alias sv="sudo vim"      #用sudo编辑文件时
+alias vd='vimdiff'  #vim diff两个文件
+alias tf='tail -f'  #动态查看文件变化
+alias t100='tail -n 100'
+alias af="awk -F '\t' '{print NF}'"   #查看文件列数，用\t分隔，最常用，其实也可以搞个通用的，接收参数
+alias wl='wc -l'    #统计行数
+alias hpwd='echo -n "`hostname`:";eval pwd'  #用scp时，展示hostname和pwd
+
+alias c="clear"   #清屏
+alias cls="clear"   #清屏
+
+#alias ll='ls -al --color=tty'   #ls相关，这里--color需要根据终端设
+#alias lx='ls -lhBX --color=auto'        #sort by extension
+#alias lz='ls -lhrS --color=auto'        #sort by size
+#alias lt='ls -lhrt --color=auto'        #sort by date    最常用到，ls -rt，按修改时间查看目录下文件
+
+#for mac
+alias ll='ls -al'   #ls相关，这里--color需要根据终端设
+alias lx='ls -lhBX'        #sort by extension
+alias lz='ls -lhrS'        #sort by size
+alias lt='ls -lhrt'        #sort by date    最常用到，ls -rt，按修改时间查看目录下文件
+
+alias lsd='find . -maxdepth 1 -type d | sort'   #列出所有目录
+alias sl='ls'
+
+export OS=`uname`
+if [ $OS = "Linux" ]; then
+    alias ls='ls --color -F'
+else
+    alias ls='ls -GF'
+fi
+
+
+alias dfind='find -type d -name'  #查找文件夹
+alias ffind='find -type f -name'  #查找文件
+alias chux='chmod u+x'    #该权限
+alias psg='ps aux|grep'   #查看
+
+
+alias now='date +"%Y-%m-%d %T"'
+
+#svn operation
+alias rmsvn='find . -name ".svn" -exec rm -rf {} \; >> /dev/null 2>&1'  #递归删除目录下所有.svn
+alias svnci='svn ci -m "commit by $USER" '   #便捷操作，适用一些不重要文件的，不建议适用哈
+alias svnst='svn st'    #少一个空格，少一个是一个......囧
+
+
+#for tmux
+alias tm='tmux -2'
+alias tmux='tmux -2'
+alias tma='tmux -2 attach'
+
+#for bash env file
+alias reload='source ~/.bashrc'
+alias bashrc='vim ~/.bashrc && source ~/.bashrc'
+alias bashpr='vim ~/.bash_profile && source ~/.bash_profile'
+alias vh='sudo vim /etc/hosts'
+
+
+#make a trash for linux
+mkdir -p ~/.trash
+alias rmr=trash 
+alias rl='ls ~/.trash'
+alias ur=undelfile
+trash()
+{
+     mv $@ ~/.trash/
+}
+undelfile()
+{
+      mv -i  ~/.trash/$@ ./
+}
+cleartrash()
+{
+      read -p "clear sure?[n]" confirm
+      [ $confirm == 'y' ] || [ $confirm == 'Y' ]  && \rm -rf ~/.trash/* && echo "Clean trash success!"
+}
+
+
+#根据文件类型解压
+extract(){
+if [ -f $1 ]; then
+         case $1 in
+             *.tar.bz2)   tar xjf $1        ;;
+             *.tar.gz)    tar xzf $1     ;;
+             *.bz2)       bunzip2 $1       ;;
+             *.rar)       unrar e $1     ;;
+             *.gz)        gunzip $1     ;;
+             *.tar)       tar xf $1        ;;
+             *.tbz2)      tar xjvf $1      ;;
+             *.tgz)       tar xzvf $1       ;;
+             *.zip)       unzip $1     ;;
+             *.Z)         uncompress $1  ;;
+             *.7z)        7z x $1    ;;
+             *)           echo "'$1' cannot be extracted via extract()" ;;
+         esac
+else
+         echo "'$1' is not a valid file"
+fi
+}
+
+#压缩 
+mktar(){ tar cvf  "${1%%/}.tar"     "${1%%/}/"; }
+mktgz(){ tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
+mktbz(){ tar cvjf "${1%%/}.tar.bz2" "${1%%/}/"; }
+
+
+
+

@@ -1,0 +1,3 @@
+
+" for javascript 自动补全,配合YCM,需要安装nodejs&npm
+" Bundle 'marijnh/tern_for_vim'

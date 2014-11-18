@@ -1,0 +1,36 @@
+[user]
+	name = 玄啸
+	email = decadeofsword@qq.com
+[core]
+	quotepath = false
+	editor = vim
+	excludesfile = /Users/xuanxiao/.gitignore_global
+[merge]
+	tool = vimdiff
+[color]
+	#开启着色功能
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	branch = auto
+    grep = auto
+    status = auto
+    showbranch = auto
+    pager = 
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	ru = remote update
+    st = status
+    cm = commit
+    mg = merge
+    rb = rebase
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = matching

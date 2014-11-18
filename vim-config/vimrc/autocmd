@@ -1,0 +1,15 @@
+
+" 打开文件时，自动定位到上次光标位置
+if has ( "autocmd" )
+	autocmd BufReadPost *
+	\ if line("'\"") > 0 && line ("'\"") <= line("$") |
+	\   exe "normal g'\"" |
+	\ endif
+endif  " has ("autocmd") 
+
+autocmd! bufwritepost _vimrc source % " vimrc文件修改之后自动加载。 windows。
+autocmd! bufwritepost .vimrc source % " vimrc文件修改之后自动加载。 linux。
+
+autocmd InsertEnter * se cul
+
+

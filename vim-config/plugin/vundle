@@ -1,0 +1,18 @@
+
+set nocompatible
+filetype off               
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
+
+"################### 插件管理 ###################
+"使用Vundle来管理插件
+" vim plugin bundle control, command model
+" :BundleInstall     install 安装配置的插件
+" :BundleInstall!    update  更新
+" :BundleClean       remove plugin not in list 删除本地无用插件
+"	Plugin 'git://git.wincent.com/command-t.git'	
+"	Plugin 'file:///home/gmarik/path/to/plugin'
+
+Bundle 'gmarik/vundle'
+
+

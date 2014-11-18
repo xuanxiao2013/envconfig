@@ -1,0 +1,11 @@
+
+source ~/.vim/plugin/vundle
+
+source ~/.vim/plugin/bundles/powerline
+source ~/.vim/plugin/bundles/ctrlp
+source ~/.vim/plugin/bundles/emmet
+source ~/.vim/plugin/bundles/js-beautify
+source ~/.vim/plugin/bundles/nerdtree
+source ~/.vim/plugin/bundles/completion
+
+source ~/.vim/plugin/vundleEnd

@@ -1,0 +1,15 @@
+source ~/.vim/vimrc/base
+
+source ~/.vim/vimrc/autocmd
+
+source ~/.vim/vimrc/bundle
+
+source ~/.vim/vimrc/hotKey
+
+source ~/.vim/vimrc/theme
+
+source ~/.vim/vimrc/status
+
+source ~/.vim/vimrc/reg
+
+source ~/.vim/vimrc/dict

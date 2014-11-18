@@ -1,0 +1,29 @@
+
+alias vim2='vim -u ~/.vim2rc'
+alias gvim='gvim -U ~/.gvimrc '
+alias ant='/Users/xuanxiao/Applications/apache-ant-1.9.4/bin/ant'
+
+alias l107="ssh xiantao.kong@10.125.13.107"
+alias pg='python /Applications/goagent/local/proxy.py'
+alias jshint='/Users/xuanxiao/node_modules/jshint/bin/jshint'
+alias rwf='node /Users/xuanxiao/work/www/github/rsync-watch-file/bin/rwf '
+alias gvim='/usr/local/Cellar/macvim/7.4-72/bin/gvim'
+
+alias rwf_cnzz_trunk='rwf /Users/xuanxiao/work/eclipse-work/cnzz_trunk/.rsf.config'
+alias rwf_user_trunk='rwf /Users/xuanxiao/work/eclipse-work/user_trunk/.rsf.config'
+
+alias opensourcecd='cd ~/work/www/github/opensource'
+alias eclipseworkcd='cd ~/work/eclipse-work'
+
+
+alias scrat='/Users/xuanxiao/work/www/github/opensource/scrat-team/scrat/bin/scrat'
+alias fis='/Users/xuanxiao/work/www/github/opensource/fis-team/fis/bin/fis'
+alias scylla='/Users/xuanxiao/work/www/github/scylla-team/scylla/bin/scylla'
+
+alias github='cd /Users/xuanxiao/work/www/github'
+alias gitlab='cd /Users/xuanxiao/work/www/gitlab'
+alias eclipse='cd /Users/xuanxiao/work/eclipse-work'
+
+alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/chrome'
+

@@ -1,0 +1,25 @@
+
+" 文件搜索
+Bundle 'kien/ctrlp.vim'
+let g:ctrlp_map = '<leader>p'
+let g:ctrlp_cmd = 'CtrlP'
+
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/]\.(git|hg|svn|rvm)$',
+    \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz)$',
+    \ }
+"\ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+let g:ctrlp_working_path_mode=0
+let g:ctrlp_match_window_bottom=1
+let g:ctrlp_max_height=15
+let g:ctrlp_match_window_reversed=0
+let g:ctrlp_mruf_max=500
+let g:ctrlp_follow_symlinks=1
+
+
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:20,results:20'
+"ctrlp 设置标记
+let g:ctrlp_root_markers = ['.ctrlpMark']
+let g:ctrlp_open_new_file = 'v'
+let g:ctrlp_open_multiple_files = 't'
+
