@@ -13,6 +13,7 @@ alias gvim='/usr/local/Cellar/macvim/7.4-72/bin/gvim'
 
 alias rwf_cnzz_trunk='rwf /Users/xuanxiao/work/eclipse-work/cnzz_trunk/.rsf.config'
 alias rwf_user_trunk='rwf /Users/xuanxiao/work/eclipse-work/user_trunk/.rsf.config'
+alias rwf_sm='rwf /Users/xuanxiao/work/eclipse-work/trunk_sm/.rsf.config'
 
 alias opensourcecd='cd ~/work/www/github/opensource'
 alias eclipseworkcd='cd ~/work/eclipse-work'
@@ -33,3 +34,4 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/chrome'
 alias vimconfig="/Users/xuanxiao/work/www/github/envconfig/vim-config"
 alias osconfig="/Users/xuanxiao/work/www/github/envconfig/mac-config"
 alias config="/Users/xuanxiao/work/www/github/envconfig"
+
