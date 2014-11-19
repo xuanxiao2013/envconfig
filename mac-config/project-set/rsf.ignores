@@ -1,0 +1,8 @@
+.project
+.svn
+node_modules/
+apps/cache/
+apps/templates/
+apps/templates_c/
+web/r/
+web/static/scss/.sass-cache/
