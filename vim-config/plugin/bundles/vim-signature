@@ -1,6 +1,0 @@
-
-" 显示marks - 方便自己进行标记和跳转
-" m[a-zA-Z] add mark
-" '[a-zA-Z] go to mark
-" m<Space>  del all marks
-"Bundle 'kshenoy/vim-signature'

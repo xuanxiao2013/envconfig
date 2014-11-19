@@ -1,6 +1,0 @@
-
-
-" 自动补全html/xml标签
-Bundle 'docunext/closetag.vim'
-let g:closetag_html_style=1
-
