@@ -12,7 +12,7 @@ let g:ctrlp_mruf_max=500
 let g:ctrlp_follow_symlinks=1
 
 
-let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:50,results:50'
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:20,results:20'
 "ctrlp 设置标记
 let g:ctrlp_root_markers = ['.ctrlpMark']
 let g:ctrlp_open_new_file = 'v'
