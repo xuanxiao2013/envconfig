@@ -1,10 +1,10 @@
 
 
 " 关闭方向键, 强迫自己用 hjkl
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
 noremap k gk
 noremap gk k
 noremap j gj

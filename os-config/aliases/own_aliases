@@ -32,6 +32,6 @@ alias firefox='/Applications/Firefox.app/Contents/MacOS/firefox'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/chrome'
 
 alias vimconfig="/Users/xuanxiao/work/www/github/envconfig/vim-config"
-alias osconfig="/Users/xuanxiao/work/www/github/envconfig/mac-config"
+alias osconfig="/Users/xuanxiao/work/www/github/envconfig/os-config"
 alias config="/Users/xuanxiao/work/www/github/envconfig"
 

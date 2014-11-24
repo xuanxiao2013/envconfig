@@ -2,3 +2,4 @@
 autocmd FileType javascript set dictionary=~/.vim/dict/javascript.dict
 autocmd FileType html set dictionary=~/.vim/dict/html.dict
 autocmd FileType css set dictionary=~/.vim/dict/css.dict
+autocmd FileType scss set dictionary=~/.vim/dict/css.dict

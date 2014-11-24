@@ -3,7 +3,6 @@ export PATH=/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:~/bin
 export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib
 export PATH=$PATH:/Users/xuanxiao/Applications/swift-0.94.1/bin
 
-
 #设置了Ls的目录颜色
 export HOSTSHORT=`hostname`
 export OS=`uname`;
