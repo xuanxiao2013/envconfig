@@ -7,5 +7,6 @@ source ~/.vim/plugin/bundles/emmet
 source ~/.vim/plugin/bundles/js-beautify
 source ~/.vim/plugin/bundles/nerdtree
 source ~/.vim/plugin/bundles/completion
+source ~/.vim/plugin/bundles/other
 
 source ~/.vim/plugin/vundleEnd

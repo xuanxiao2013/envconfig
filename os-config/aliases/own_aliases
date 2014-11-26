@@ -3,7 +3,7 @@ alias vim2='vim -u ~/.vim2rc'
 alias gvim='gvim -U ~/.gvimrc '
 alias ant='/Users/xuanxiao/Applications/apache-ant-1.9.4/bin/ant'
 
-alias svn='/usr/local/Cellar/subversion/1.8.10_1/bin/svn'
+#alias svn='/usr/local/Cellar/subversion/1.8.10_1/bin/svn'
 
 alias l107="ssh xiantao.kong@10.125.13.107"
 alias pg='python /Applications/goagent/local/proxy.py'
@@ -19,8 +19,8 @@ alias opensourcecd='cd ~/work/www/github/opensource'
 alias eclipseworkcd='cd ~/work/eclipse-work'
 
 
-alias scrat='/Users/xuanxiao/work/www/github/opensource/scrat-team/scrat/bin/scrat'
-alias fis='/Users/xuanxiao/work/www/github/opensource/fis-team/fis/bin/fis'
+alias scrat='/Users/xuanxiao/work/www/gitlab/opensource/scrat-team/scrat/bin/scrat'
+alias fis='/Users/xuanxiao/work/www/gitlab/opensource/fis-team/fis/bin/fis'
 alias scylla='/Users/xuanxiao/work/www/github/scylla-team/scylla/bin/scylla'
 
 alias github='cd /Users/xuanxiao/work/www/github'
