@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/xuanxiao/work/www/github/envconfig/mac-config'
 let g:netrw_dirhist_2='/Users/xuanxiao/work/www/github/envconfig/vim-config/vimrc'
 let g:netrw_dirhist_3='/Users/xuanxiao/work/www/github/envconfig/mac-config/project-set'
+let g:netrw_dirhist_4='/Users/xuanxiao/work/eclipse-work/user_trunk/web/crossDomain'
