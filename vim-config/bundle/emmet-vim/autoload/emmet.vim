@@ -1468,13 +1468,17 @@ let s:emmet_settings = {
 \                    ."<body>\n\t${child}|\n</body>\n"
 \                    ."</html>",
 \            'html:5': "<!DOCTYPE html>\n"
-\                    ."<html lang=\"${lang}\">\n"
+\                    ."<html>\n"
 \                    ."<head>\n"
 \                    ."\t<meta charset=\"${charset}\">\n"
 \                    ."\t<title></title>\n"
 \                    ."</head>\n"
 \                    ."<body>\n\t${child}|\n</body>\n"
 \                    ."</html>",
+\			'define': "define(function(require, exports, module) {\n"
+\    				 ."		//var $ = require('jquery');\n"
+\					 ."\n"
+\					 ."});\n",
 \        },
 \        'default_attributes': {
 \            'a': {'href': ''},

@@ -6,14 +6,15 @@ alias ant='/Users/xuanxiao/Applications/apache-ant-1.9.4/bin/ant'
 #alias svn='/usr/local/Cellar/subversion/1.8.10_1/bin/svn'
 
 alias l107="ssh xiantao.kong@10.125.13.107"
+alias l130="ssh xiantao.kong@10.125.13.130"
 alias pg='python /Applications/goagent/local/proxy.py'
 alias jshint='/Users/xuanxiao/node_modules/jshint/bin/jshint'
 alias rwf='node /Users/xuanxiao/work/www/github/rsync-watch-file/bin/rwf '
 alias gvim='/usr/local/Cellar/macvim/7.4-72/bin/gvim'
 
-alias rwf_cnzz_trunk='rwf /Users/xuanxiao/work/eclipse-work/cnzz_trunk/.rsf.config'
-alias rwf_user_trunk='rwf /Users/xuanxiao/work/eclipse-work/user_trunk/.rsf.config'
-alias rwf_sm='rwf /Users/xuanxiao/work/eclipse-work/trunk_sm/.rsf.config'
+alias rtrunk='rwf /Users/xuanxiao/work/eclipse-work/cnzz_trunk/.rsf.config'
+alias ruserTrunk='rwf /Users/xuanxiao/work/eclipse-work/user_trunk/.rsf.config'
+alias riTrunk='rwf /Users/xuanxiao/work/eclipse-work/i18n_trunk/.rsf.config'
 
 alias opensourcecd='cd ~/work/www/github/opensource'
 alias eclipseworkcd='cd ~/work/eclipse-work'
@@ -35,3 +36,4 @@ alias vimconfig="/Users/xuanxiao/work/www/github/envconfig/vim-config"
 alias osconfig="/Users/xuanxiao/work/www/github/envconfig/os-config"
 alias config="/Users/xuanxiao/work/www/github/envconfig"
 
+alias i18n="cd /Users/xuanxiao/work/eclipse-work/i18n_trunk"

@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/xuanxiao/work/www/github/envconfig/mac-config'
 let g:netrw_dirhist_2='/Users/xuanxiao/work/www/github/envconfig/vim-config/vimrc'
 let g:netrw_dirhist_3='/Users/xuanxiao/work/www/github/envconfig/mac-config/project-set'
 let g:netrw_dirhist_4='/Users/xuanxiao/work/eclipse-work/user_trunk/web/crossDomain'
+let g:netrw_dirhist_5='/Users/xuanxiao/work/eclipse-work/user_trunk/apps'
+let g:netrw_dirhist_6='/Users/xuanxiao/work/www/gitlab/opensource/seajs/src'
+let g:netrw_dirhist_7='/Users/xuanxiao/work/www/gitlab/opensource/material/docs'

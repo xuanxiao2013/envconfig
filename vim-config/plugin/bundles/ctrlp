@@ -19,6 +19,10 @@ let g:ctrlp_open_new_file = 'v'
 let g:ctrlp_open_multiple_files = 't'
 
 " 排除目录
+"let g:ctrlp_custom_ignore = {
+"	\ 'dir': '\v\apps\/(templates$|lib|templates_c|class)|\v\web\/(r|oemuser|user)|\v\web_elements_cache|\v\web\/static\/css|\v\web\/static\/quanjing|\v\web\/static\/flash|\v\web\/static\/deploy|\v\web\/static\/web_elements_cache|\v\web\/static\/img|\v\web\/static\/style\/img'
+"	\}
+
 let g:ctrlp_custom_ignore = {
-	\ 'dir': '\v\apps\/(templates$|lib|templates_c|class)|\v\web\/(r|oemuser|user)|\v\web_elements_cache|\v\web\/static\/css|\v\web\/static\/quanjing|\v\web\/static\/flash|\v\web\/static\/deploy|\v\web\/static\/web_elements_cache|\v\web\/static\/img|\v\web\/static\/style\/img'
-	\}
+	\'dir': '\v\application\/(library|process|tpl|tpl_c)|\v\www\/static\/data'
+\}
