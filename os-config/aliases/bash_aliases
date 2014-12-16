@@ -17,6 +17,7 @@ alias df="df -h"
 alias du="du -h"
 alias last="last -a"
 alias free='free -m'
+alias rm='rm -rf'
 
 
 alias diff='colordiff'

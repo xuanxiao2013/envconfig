@@ -9,6 +9,10 @@ Bundle 'honza/vim-snippets'
 let g:UltiSnipsExpandTrigger       = "<tab>"
 let g:UltiSnipsJumpForwardTrigger  = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-"let g:UltiSnipsSnippetDirectories  = ['UltiSnips']
-"let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
+let g:UltiSnipsSnippetDirectories  = ['UltiSnips']
+let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
 "map <leader>us :UltiSnipsEdit<CR>
+
+"自动补全单引号，双引号, 括号等
+Plugin 'Raimondi/delimitMate'
+
