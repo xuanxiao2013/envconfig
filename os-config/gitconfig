@@ -1,10 +1,10 @@
 [user]
-	name = xuanxiao2013
-	email = decadeofsword@qq.com
+  name = 玄啸     
+  email = xiantao.kong@alibaba-inc.com
 [core]
 	quotepath = false
 	editor = vim
-	excludesfile = /Users/xuanxiao/.gitignore_global
+	#excludesfile = /Users/xx/.gitconfig
 [merge]
 	tool = vimdiff
 [color]

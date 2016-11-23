@@ -17,6 +17,10 @@ echo '安装zshrc...'
 rm -rf $HOME_DIR/.zshrc
 ln -s $CF_DIR/zshrc $HOME_DIR/.zshrc
 
+echo '配置git...'
+rm -rf $HOME_DIR/.gitconfig
+ln -s $CF_DIR/gitconfig $HOME_DIR/.gitconfig
+
 
 rm -rf $HOME/.osconfig
 lnif $CF_DIR/ $HOME/.osconfig
