@@ -20,6 +20,7 @@ export PATH=$PATH:/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/opt/local/sbin:/
 # andriod path
 export PATH=${PATH}:/Users/xuanxiao/Developer/adt-bundle-mac-x86_64-20131030/sdk/platform-tools:/Users/xuanxiao/Developer/adt-bundle-mac-x86_64-20131030/sdk/tools
 export PATH=${PATH}:/Users/xuanxiao/Applications/apache-ant-1.9.4/bin/
+export PATH=${PATH}:/Users/xx/.npm-global/bin/
 
 # 输入文件名即可打开
 alias -s py=vi

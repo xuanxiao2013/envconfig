@@ -1,9 +1,11 @@
 [user]
   name = 玄啸     
   email = xiantao.kong@alibaba-inc.com
+	empid = 55792
 [core]
 	quotepath = false
 	editor = vim
+	autocrlf = input
 	#excludesfile = /Users/xx/.gitconfig
 [merge]
 	tool = vimdiff
@@ -19,7 +21,7 @@
     showbranch = auto
     pager = 
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
 	co = checkout
 	ci = commit
 	st = status

@@ -2,46 +2,25 @@
 alias vim2='vim -u ~/.vim2rc'
 alias gvim='gvim -U ~/.gvimrc '
 alias npm='node /Users/xx/.npm-global/lib/node_modules/npm/bin/npm-cli.js '
-alias cnpm="npm --registry=https://registry.npm.taobao.org \
---cache=$HOME/.npm/.cache/cnpm \
---disturl=https://npm.taobao.org/mirrors/node \
---userconfig=$HOME/.cnpmrc"
-alias n='cnpm -s'
-alias nr='cnpm -s run '
-alias tnpm='tnpm-3 '
+alias tnpm='/Users/xx/.npm-global/bin/tnpm '
+alias def='/Users/xx/.npm-global/bin/def '
+alias midway='/Users/xx/.npm-global/bin/midway '
+alias ysf-init='/Users/xx/.npm-global/bin/ysf-init'
+alias honeycomb='node /Users/xx/.npm-global/lib/node_modules/@alife/ysf-honey/bin/index.js '
 
 alias l130="ssh xiantao.kong@10.125.13.130"
-alias rwf='node /Users/xx/www/github/rsync-watch-file/bin/rwf '
-
-alias sj='cd /Users/xx/www/work/shangjia'
-alias ele='cd /Users/xx/www/opencode/electron'
-
+alias sj='cd /Users/xx/www/work/shangjia/saas-strategy-fe/'
 
 alias github='cd /Users/xx/www/github'
-alias oc='cd /Users/xx/www/opencode'
 alias gitlab='cd /Users/xx/www/gitlab'
-alias eclipse='cd /Users/xuanxiao/work/eclipse-work'
-alias test='cd /Users/xuanxiao/work/test'
-alias dplus='cd /Users/xx/www/work/dplus'
-alias sdk='cd /Users/xx/www/work/dplus_sdk'
-alias react='cd /Users/xx/www/opencode/react'
-alias reactserver='/Users/xx/www/opencode/react/react-server'
-alias antd='/Users/xx/www/opencode/react/antd-alipay'
 
 alias vimconfig="/Users/xx/www/github/envconfig/vim-config"
 alias osconfig="/Users/xx/www/github/envconfig/os-config"
 alias config="/Users/xx/www/github/envconfig"
 
-alias nodew="cd /Users/xx/www/work/webstrom-work/node-practice/"
 alias nodemon="nodemon -q "
-alias natapp="/Applications/natapp "
 
-alias browserify="node /usr/local/lib/node_modules/browserify/bin/cmd.js "
-
-alias scrat="node /Users/xx/www/opencode/fis-scrat/scrat/bin/scrat";
 alias fef="node /Users/xx/www/github/fef/bin/fef";
 
-alias nw="/Users/xx/www/opencode/NW/nw-source/nwjs-v0.12.3-osx-ia32/nwjs.app/Contents/MacOS/nwjs "
-alias antd="cd /Users/xx/www/opencode/react/antd-alipay "
-
-alias nv6='nvm run --silent v6.2.0 '
+alias tommy='/Users/xx/.npm-global/bin/tommy '
+alias honeypush='node /Users/xx/.npm-global/lib/node_modules/@alife/data-bank-honey/bin/index.js push'
