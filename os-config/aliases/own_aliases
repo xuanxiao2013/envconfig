@@ -1,26 +1,7 @@
 
 alias vim2='vim -u ~/.vim2rc'
 alias gvim='gvim -U ~/.gvimrc '
-alias npm='node /Users/xx/.npm-global/lib/node_modules/npm/bin/npm-cli.js '
-alias tnpm='/Users/xx/.npm-global/bin/tnpm '
-alias def='/Users/xx/.npm-global/bin/def '
-alias midway='/Users/xx/.npm-global/bin/midway '
-alias ysf-init='/Users/xx/.npm-global/bin/ysf-init'
-alias honeycomb='node /Users/xx/.npm-global/lib/node_modules/@alife/ysf-honey/bin/index.js '
-
-alias l130="ssh xiantao.kong@10.125.13.130"
-alias sj='cd /Users/xx/www/work/shangjia/saas-strategy-fe/'
-
 alias github='cd /Users/xx/www/github'
 alias gitlab='cd /Users/xx/www/gitlab'
-
 alias vimconfig="/Users/xx/www/github/envconfig/vim-config"
-alias osconfig="/Users/xx/www/github/envconfig/os-config"
-alias config="/Users/xx/www/github/envconfig"
-
 alias nodemon="nodemon -q "
-
-alias fef="node /Users/xx/www/github/fef/bin/fef";
-
-alias tommy='/Users/xx/.npm-global/bin/tommy '
-alias honeypush='node /Users/xx/.npm-global/lib/node_modules/@alife/data-bank-honey/bin/index.js push'
