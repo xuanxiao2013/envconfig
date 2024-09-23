@@ -43,7 +43,6 @@ OS_CONFIG_DIR="$HOME/.osconfig"
 source $OS_CONFIG_DIR/bash_profile
 source $OS_CONFIG_DIR/aliases/bash_aliases
 source $OS_CONFIG_DIR/aliases/git_aliases
-source $OS_CONFIG_DIR/aliases/svn_aliases
 source $OS_CONFIG_DIR/aliases/own_aliases
 
 alias ci='vim $OS_CONFIG_DIR/ci.txt'
