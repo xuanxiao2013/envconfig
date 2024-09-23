@@ -1,2 +1,0 @@
-alias svnig='svn ps svn:ignore "*" '
-alias svnlog='svn log -l 10 |sed -n "/xiantao.kong/,/-----$/ p"'

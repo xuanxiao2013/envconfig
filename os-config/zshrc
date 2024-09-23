@@ -47,3 +47,6 @@ source $OS_CONFIG_DIR/aliases/svn_aliases
 source $OS_CONFIG_DIR/aliases/own_aliases
 
 alias ci='vim $OS_CONFIG_DIR/ci.txt'
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
